@@ -1,0 +1,30 @@
+
+public class BreakBasic {
+
+	
+	public static void main(String[] args){
+		
+		int num = 1;
+		boolean search = false;
+		
+		while(num<100){
+			
+			if(num%5==0 && num %7==0){
+				
+				search = true;
+				System.out.println("찾는정수 :" + num);
+			
+			}
+			num++;
+			
+		}
+		
+		if(search){
+			
+			
+		}else{
+			System.out.println("xxxx");
+		}
+		
+	}
+}

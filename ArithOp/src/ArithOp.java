@@ -11,6 +11,20 @@ public class ArithOp {
 		System.out.println("³ª´°¼À °á°ú" + n1 / n2);
 		
 		System.out.println("³ª¸ÓÁö °á°ú" + n1 % n2);
+		
+		
+		int a = 7 ;
+		
+		a = ~a;
+		a++;
+		System.out.println(a);
+		
+		int b= 15678;
+		
+		
+		
+		System.out.println(b>>2);
+		
 	}
 
 }
