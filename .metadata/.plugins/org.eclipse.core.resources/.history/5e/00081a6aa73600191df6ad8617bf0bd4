@@ -69,7 +69,7 @@ class FruitBuyer{
 		numOfApple += seller.saleApple(money);
 		myMoney -= money;
 	}
-	6
+	
 	public void showBuyerResult(){
 		System.out.println("구매한 사과" + numOfApple);
 		System.out.println("남은돈 " + myMoney);
