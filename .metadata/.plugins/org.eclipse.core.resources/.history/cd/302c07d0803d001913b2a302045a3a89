@@ -3,10 +3,11 @@ public class HowMethod {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		AreaMath am = new AreaMath();
+		PerimeterMath pm = new PerimeterMath();
 		
-		System.out.println("am : " + AreaMath.calCircleArea(5.5));
-		System.out.println("직사각형 : " + PerimeterMath.calRectanglePeri(2.0, 4.0));
+		System.out.println("am : " + am.calCircleArea(5.5));
+		System.out.println("직사각형 : " + pm.calRectanglePeri(2.0, 4.0));
 	}
 
 }
@@ -18,7 +19,7 @@ class SimpleMath{
 	public static double mul(double a, double b){return a*b; }
 }
 class AreaMath{
-	public  static double calCircleArea(double rad){
+	public double calCircleArea(double rad){
 		
 		double result = SimpleMath.mul(rad, rad);
 		result = SimpleMath.mul(result, SimpleMath.PI);
@@ -35,16 +36,18 @@ class AreaMath{
 
 class PerimeterMath{
 	
-	public double calCirclePeri(double rad){
-		double result =  SimpleMath.mul(rad, 2);
-		result = SimpleMath.mul(result, SimpleMath.PI);
+/*	public double calCirclePeri(double rad){
+		SimpleMath sm = new SimpleMath();
+		double result = sm.mul(rad, 2);
+		result = sm.mul(result, SimpleMath.PI);
 		return result;
 		
 	}
-
+*/	
 	
-	public static double calRectanglePeri(double width, double height){
-		return SimpleMath.add(SimpleMath.mul(width, 2), SimpleMath.mul(height, 2));
+	public double calRectanglePeri(double width, double height){
+		SimpleMath sm = new SimpleMath();
+		return sm.add(sm.mul(width, 2), sm.mul(height, 2));
 	}
 	
 	

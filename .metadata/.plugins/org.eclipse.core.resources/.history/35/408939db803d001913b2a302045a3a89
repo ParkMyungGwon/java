@@ -18,7 +18,7 @@ class SimpleMath{
 	public static double mul(double a, double b){return a*b; }
 }
 class AreaMath{
-	public  static double calCircleArea(double rad){
+	public double calCircleArea(double rad){
 		
 		double result = SimpleMath.mul(rad, rad);
 		result = SimpleMath.mul(result, SimpleMath.PI);
@@ -43,7 +43,7 @@ class PerimeterMath{
 	}
 
 	
-	public static double calRectanglePeri(double width, double height){
+	public double calRectanglePeri(double width, double height){
 		return SimpleMath.add(SimpleMath.mul(width, 2), SimpleMath.mul(height, 2));
 	}
 	
