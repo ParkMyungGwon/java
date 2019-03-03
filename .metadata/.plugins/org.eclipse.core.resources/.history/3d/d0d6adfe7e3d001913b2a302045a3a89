@@ -1,0 +1,20 @@
+
+public class HowMethod {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		AreaMath am = new AreaMath();
+		PerimeterMath pm = new PerimeterMath();
+	}
+
+}
+
+class AreaMath{
+	
+	
+	
+}
+
+class PerimeterMath{
+	
+}

@@ -1,0 +1,35 @@
+
+public class HowMethod {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		AreaMath am = new AreaMath();
+		PerimeterMath pm = new PerimeterMath();
+		
+		System.out.println("am : " + am.calCircleArea(5.5));
+	}
+
+}
+class SimpleMath{
+	
+	public static final double PI = 3.1415;
+	public double add(double a, double b){return a+b; }
+	public double min(double a, double b){return a-b; }
+	public double mul(double a, double b){return a*b; }
+}
+class AreaMath{
+	public double calCircleArea(double rad){
+		
+		SimpleMath sm = new SimpleMath();
+		double result = sm.mul(rad, rad);
+		result = sm.mul(result, SimpleMath.PI);
+		
+		
+	}
+	
+	
+}
+
+class PerimeterMath{
+	
+}

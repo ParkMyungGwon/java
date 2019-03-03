@@ -1,0 +1,16 @@
+
+public class ClassVarUse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Circle c1 = new Circle(1,2);
+	}
+
+}
+
+class Circle{
+	
+	public Circle(int num1, int num2){
+		
+	}
+}
