@@ -1,0 +1,6 @@
+package orange.cal.Calculator;
+
+public class Snippet {
+	The blank final field PI may not have been initialized
+}
+

@@ -2,4 +2,6 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="FruitBuyer"/>
 <fullyQualifiedTypeName name="FruitSeller"/>
+<fullyQualifiedTypeName name="orange.area.Circle"/>
+<fullyQualifiedTypeName name="orange.cal.Calculator"/>
 </qualifiedTypeNameHistroy>

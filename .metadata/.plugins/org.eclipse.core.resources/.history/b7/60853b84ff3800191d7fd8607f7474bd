@@ -1,0 +1,13 @@
+package orange.cal
+
+import orange.cal.Calculator;
+
+public class CalculatorMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Calculator c1 = new Calculator();
+	}
+
+}

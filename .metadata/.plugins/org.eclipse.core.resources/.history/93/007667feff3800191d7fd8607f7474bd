@@ -1,0 +1,10 @@
+package orange.cal;
+
+public class CaculatorMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
