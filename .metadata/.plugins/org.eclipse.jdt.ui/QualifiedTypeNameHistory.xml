@@ -4,4 +4,7 @@
 <fullyQualifiedTypeName name="FruitSeller"/>
 <fullyQualifiedTypeName name="orange.area.Circle"/>
 <fullyQualifiedTypeName name="orange.cal.Calculator"/>
+<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
