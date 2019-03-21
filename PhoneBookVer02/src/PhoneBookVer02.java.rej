@@ -1,0 +1,10 @@
+diff a/PhoneBookVer02/src/PhoneBookVer02.java b/PhoneBookVer02/src/PhoneBookVer02.java	(rejected hunks)
+@@ -19,7 +19,7 @@
+ 		switch(choice){
+ 		case 1 :
+ 			readData();
+-			break;
++			break;//
+ 		case 2 :
+ 			System.out.println("���α׷� ����");
+ 			return;
