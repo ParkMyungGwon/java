@@ -5,12 +5,7 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
-			<item value="E:\git_Pro\java\TwoDimenArray"/>
-			<item value="E:\git_Pro\java\PhoneBookVer03"/>
-			<item value="E:\git_Pro\java\PartiallyFilledArray"/>
-			<item value="E:\git_Pro\java\MainParam"/>
-			<item value="E:\git_Pro\java\EnhancedForInst"/>
-			<item value="E:\git_Pro\java\EnhancedFor"/>
+			<item value="D:\eclipse_workspace\workspace\AccessArray"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>
