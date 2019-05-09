@@ -1,0 +1,48 @@
+
+public class SyncObjectKeyAnswer {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+
+class IHaveTwoNum{
+	
+	int num1 = 0;
+	int num2 = 0;
+	
+	public void addOneNum1() {
+		
+		synchronized(key1){
+			num1+=1;
+		}
+	}
+	public void addTwoNum1() {
+		
+		synchronized(key1){
+			num1+=2;
+		}
+	}
+	
+	
+	public void addOneNum2() {
+		synchronized(key2){
+			num2+=2;
+		}
+}
+	public void addTwoNum2() {
+		synchronized(key2){
+			num2+=2;
+		}
+	}
+	public void showAllNums(){
+		System.out.println("num1 : " + num1);
+		System.out.println("num2 : " + num2);
+	}
+	
+	Object key1 = new Object();
+	Object key2 = new Object();
+}
